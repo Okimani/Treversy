@@ -35,11 +35,10 @@ address: {
     street: '50 main st',
     city: 'Boston',
     state: 'MA'
-}
+ }
 
 }
+person.email ='john@email.com' //adding an item on the object
+console.log(person);
+console.log(person.address.city); //outputs boston
 
-
-
-
-}
