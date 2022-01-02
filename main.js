@@ -66,3 +66,7 @@ const todos = [
 ];
 
 console.log(todos[1].text); // this will print out meeting with boss
+
+//converting to JSON
+const todojson = JSON.stringify(todos);
+console.log(todojson);
