@@ -24,3 +24,22 @@ fruits.pop(); //remove the last item in the array
 console.log(Array.isArray(fruits)); // check if fruits is an array
 console.log(fruits.indexOf('Bananas')); // to get the index of kiwi
 console.log(fruits);
+
+// object literals
+const person = {
+firstName: 'John',
+lastName: 'Doe',
+age: 30,
+hobbies: ['music', 'movies', 'sports'],
+address: {
+    street: '50 main st',
+    city: 'Boston',
+    state: 'MA'
+}
+
+}
+
+
+
+
+}
