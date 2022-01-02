@@ -42,3 +42,27 @@ person.email ='john@email.com' //adding an item on the object
 console.log(person);
 console.log(person.address.city); //outputs boston
 
+
+//array with each value being an object
+
+const todos = [
+    {
+        id: 1,
+        text: 'Take out trash',
+        isCompleted: true
+    }, 
+
+    {
+        id: 2,
+        text: 'Meeting with Boss',
+        isCompleted: true
+    }, 
+    {
+        id: 3,
+        text: 'Dentist Appointment',
+        isCompleted: false
+    }, 
+
+];
+
+console.log(todos[1].text); // this will print out meeting with boss
